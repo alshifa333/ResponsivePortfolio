@@ -55,6 +55,17 @@ text-align: center;
     width: 100%;
 }
 
+.wrapper {
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    border: 6px solid #fff;
+
+}
+
+
 
 /* .main {
     display: flex;
@@ -89,21 +100,32 @@ text-align: center;
 .projects {
     position: relative;
     top: -20px;
+    
+    margin:0px 20px 20px ;
 }
 
 .internships {
     position: relative;
+    margin-right: 20px;
     top: -70px;
 }
-
+.internships p{
+    margin-left: 5px;
+}
+.internships li {
+    text-align: justify;
+    margin:10px 20px 20px ;
+}
 .E-kart li {
     margin-left: 20px;
-    text-align: left;
+   
+    text-align: justify;
 }
 
 .Study-hub li {
     margin-left: 20px;
     text-align: left;
+    text-align: justify;
 }
 
 .internships-title {
@@ -121,15 +143,16 @@ h2 {
     background: #00b6c4;
     padding: 15px;
     color: #fff;
-    margin: 30px 0;
+    margin: 25px 0;
     font-size: 20px;
     border-radius: 0 50px 50px 0;
+    
 }
 
 .right {
     flex: 1;
     padding: 10px;
-    margin-left: 30px;
+    
 }
 
 .right h3 {
